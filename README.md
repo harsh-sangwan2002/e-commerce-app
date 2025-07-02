@@ -4,6 +4,10 @@ A full-stack modern e-commerce web application built with React, Material UI (MU
 
 ---
 
+## Live Demo
+
+[Link](https://e-commerce-app-harsh.vercel.app/)
+
 ## 🚀 Tech Stack
 
 ### Frontend
