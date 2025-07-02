@@ -290,7 +290,7 @@ const ProductListPage = () => {
                                 {sortOpen ? <ArrowDropUpIcon /> : <ArrowDropDownIcon />}
                             </button>
                             {sortOpen && (
-                                <div className="z-20 absolute right-0 mt-2 w-48 bg-white border rounded shadow z-10 flex flex-col">
+                                <div className="absolute right-0 mt-2 w-48 bg-white border rounded shadow z-10 flex flex-col">
                                     {['Popular', 'Price: Low to High', 'Price: High to Low', 'Name: A-Z', 'Name: Z-A'].map(option => (
                                         <button
                                             key={option}
