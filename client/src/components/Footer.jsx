@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="bg-white text-[#222] text-sm pt-10 pb-4 px-6 md:px-16 border-t border-[#eee]">
             <div className="mx-auto px-20">
-                <div className="flex flex-col md:flex-row md:justify-between gap-10 md:gap-0">
+                <div className="flex flex-col md:flex-row md:justify-between gap-1 md:gap-0">
                     {/* Left: Logo, Newsletter, Socials */}
                     <div className="flex-1 min-w-[220px] flex flex-col gap-6">
                         <div>
@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
 
                     {/* Center: Links */}
-                    <div className="flex-[2] flex flex-col md:flex-row justify-between gap-10 md:gap-20 mt-8 md:mt-0">
+                    <div className="flex-[1] flex md:flex-row justify-between gap-10 md:gap-10 mt-8 md:mt-0">
                         <div>
                             <div className="font-semibold mb-2">Shop</div>
                             <ul className="space-y-1 text-gray-700">

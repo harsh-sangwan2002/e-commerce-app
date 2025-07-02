@@ -11,9 +11,9 @@ const connectDB = require('./utils/db');
 
 app.use('/api/users', userRouter);
 
-app.listen(8080, () => {
-    connectDB();
-    console.log('Server is running on port 3000');
+app.listen(8080, async () => {
+    console.log('Server is running on port 8080');
+    await connectDB();
 })
 
 module.exports = app;
